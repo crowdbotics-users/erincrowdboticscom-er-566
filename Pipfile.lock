@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f839d4c408eeb732d11f2177f28251d69c0f5237a72f5413850e84b4fc34d850"
+            "sha256": "b6612f4eeb278468b17ab5e181d972e9fd5c947d95525c865d2f7694ef46ff5c"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -88,6 +88,13 @@
             ],
             "version": "==1.8.0"
         },
+        "dwolla": {
+            "hashes": [
+                "sha256:babf58a8590408c0110f292fbc97924c2f07b845ca1bb518eddf25ee1efbd152"
+            ],
+            "index": "pypi",
+            "version": "==2.3.2"
+        },
         "idna": {
             "hashes": [
                 "sha256:c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407",
@@ -95,12 +102,26 @@
             ],
             "version": "==2.8"
         },
+        "mock": {
+            "hashes": [
+                "sha256:5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1",
+                "sha256:b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba"
+            ],
+            "version": "==2.0.0"
+        },
         "oauthlib": {
             "hashes": [
                 "sha256:ac35665a61c1685c56336bda97d5eefa246f1202618a1d6f34fccb1bdd404162",
                 "sha256:d883b36b21a6ad813953803edfa563b1b579d79ca758fe950d1bc9e8b326025b"
             ],
             "version": "==2.1.0"
+        },
+        "pbr": {
+            "hashes": [
+                "sha256:f59d71442f9ece3dffc17bc36575768e1ee9967756e6b6535f0ee1f0054c3d68",
+                "sha256:f6d5b23f226a2ba58e14e49aa3b1bfaf814d0199144b95d78458212444de1387"
+            ],
+            "version": "==5.1.1"
         },
         "psycopg2": {
             "hashes": [
