@@ -7,6 +7,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'stripe', 'url': 'http://pypi.python.org/pypi/stripe/1.77.1'},
 	{'name':'dwolla', 'url': 'https://rubygems.org/gems/dwolla'},
 	{'name':'django-mongodb-engine', 'url': 'http://pypi.python.org/pypi/django-mongodb-engine/0.6.0'},
 	{'name':'SpeechRecognition', 'url': 'http://pypi.python.org/pypi/SpeechRecognition/3.8.1'},
